@@ -3,7 +3,10 @@
 > 사업 방향, 개발 완료 현황, 주요 의사결정을 시간 순으로 기록. 매주 또는 주요 변곡점마다 업데이트. Claude와 대화 시작 시 "로그 참조해줘" 한 마디로 컨텍스트 복원 가능.
 ## 로그
 ---
-추가 수정ㅇㅇㅇㅇ
+
+### 2026-07-30
+- ppoi 쇼핑몰 준비 시작, ppoi_shopping.md 생성"
+
 ### 2026-07-29
 
 - `ppoi_dd_todo_after_yuja.md` 전체 작업 완료
@@ -39,17 +42,20 @@
 
 업데이트 : 2026-07-29
 
-|영역|상태|
-|---|---|
-|ppoi-client (ppoi.kr)|✅ Vercel 배포 완료|
-|ppoi-admin (admin.ppoi.kr)|✅ Vercel 배포 완료|
-|Supabase 백엔드 (outfit/item API)|✅ 유자 작업 완료|
-|Supabase 마이그레이션 (댓글 시스템)|✅ 완료|
-|**ppoi-server (구 댓글 서버)**|**✅ archive 처리 완료**|
-|**클라이언트/어드민 Supabase 연동**|**✅ 완료**|
-|아웃핏 자동화 파이프라인 API|⏳ 진행 중|
-|SmartStore|⏳ 검증 단계|
-|Cafe24 연동|📅 예정|
+| 영역                             | 상태                  |
+| ------------------------------ | ------------------- |
+| ppoi-client (ppoi.kr)          | ✅ Vercel 배포 완료      |
+| ppoi-admin (admin.ppoi.kr)     | ✅ Vercel 배포 완료      |
+| Supabase 백엔드 (outfit/item API) | ✅ 유자 작업 완료          |
+| Supabase 마이그레이션 (댓글 시스템)       | ✅ 완료                |
+| **ppoi-server (구 댓글 서버)**      | **✅ archive 처리 완료** |
+| **클라이언트/어드민 Supabase 연동**      | **✅ 완료**            |
+| 아웃핏 자동화 파이프라인 API              | ⏳ 진행 중              |
+| SmartStore                     | ⏳ 검증 단계             |
+| Cafe24 연동                      | 📅 예정               |
+|                                |                     |
+|                                |                     |
+|                                |                     |
 
 ---
 **현재 사업 단계**: 1단계 (아웃핏/아이템 등록 파이프라인 자동화 완성 중)
@@ -89,9 +95,11 @@
 ---
 
 - [ ] 아웃핏 자동화 파이프라인 API 완성
-- [ ] dd 후속 작업 (ppoi_dd_todo_after_yuja.md 체크리스트)
+- [x] dd 후속 작업 (ppoi_dd_todo_after_yuja.md 체크리스트)
 - [x] 랭킹 배지 Figma 디자인 → Claude Code 구현
-- [ ] SmartStore 검증 단계 완료 → 상품 등록
+- [ ] ppoi 스마트 스토어 준비 
+	- [ ] 태스크 루틴 정리 : 소싱 > 상세페이지 > 광고 > 운영
+	- [ ] 상세페이지 생성 자동화 : 설득 구조 -> html 뽑아서 -> 스스 등록 
 - [ ] 블로그 글 작성 (ppoi 왜 만듦, 추구 방향)
 
 
